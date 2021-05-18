@@ -12,10 +12,10 @@ public class Main {
 		
 		KPSPublicSoapProxy kpsPublic = new KPSPublicSoapProxy();
 		boolean  result = kpsPublic.TCKimlikNoDogrula(
-				Long.parseLong("25665285212"), 
-				"AYKUT", 
-				"ÞAHÝN", 
-				1998);
+				Long.parseLong("TCKÝMLÝKNO"), 
+				"AD(BUYUK)", 
+				"SOYAD(BUYUK", 
+				1234);//DOGUM YÝLÝNÝZ
 		System.out.println("Doðrulama : " + (result ? "Baþarýlý Giriþ" : "Baþarýsýz Giriþ"));
 
 	}
